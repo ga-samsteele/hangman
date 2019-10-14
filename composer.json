@@ -1,0 +1,25 @@
+{
+    "name": "samsteele/hangman",
+    "description": "Hangman game playable on frontend of site",
+    "require": {
+        "php": "7.*",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Sam Steele",
+            "email": "sam.steele.93@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SamSteele\\Hangman\\": ""
+        }
+    }
+}
+  
